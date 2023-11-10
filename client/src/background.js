@@ -12,7 +12,7 @@ addEventListener("load", () => {
   const canvas = document.getElementById("canvas");
   const context = canvas.getContext("2d");
 
-  let scale = 1, // device pixel ratio
+  let scale = 1, // device pixel rati o
     width,
     height;
 
