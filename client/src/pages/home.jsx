@@ -7,6 +7,7 @@ export default function Home() {
       Game Development <br/>and <br/> 
       eXtended Reality club
       </div>
+      <div className="parallax-layer ship"></div>
       <div className="content">
         <div className="contentText">
           AIT VR Tour

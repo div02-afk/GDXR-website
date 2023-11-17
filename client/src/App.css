@@ -40,27 +40,30 @@ a:hover {
 }
 @keyframes movement_car {
   0% {
-    background-position: -300px 100%;
-  }
-  100% {
     background-position: 2000px 100%;
   }
+  100% {
+    background-position: -300px 100%;
+  }
+  
 }
 .ship {
-  background: url(images/ship.png) 0 50% no-repeat;
+  background: url(images/b7a.gif) 0 50% no-repeat;
   /* z-index: 1; */
-  position: absolute;
-  bottom: 200px;
+  /* position: absolute; */
+  /* bottom: 200px; */
+  margin-top: 2rem;
   left: 0;
   width: 100%;
-  height: 100%;  
+  height: 100%;
+  max-height: 100px;  
   background-size: auto 100px;
 }
 
-.meteyor {
-  animation: movement_meteyor linear 15s infinite both reverse;
+.meteor {
+  animation: movement_meteor linear 15s infinite both reverse;
 }
-@keyframes movement_meteyor {
+@keyframes movement_meteor {
   0% {
     background-position: -100px 100%;
   }
@@ -68,8 +71,8 @@ a:hover {
     background-position: 2000px 1%;
   }
 }
-.meteyor {
-  background: url(images/meteyour.png) 0 50% no-repeat;
+.meteor {
+  background: url(images/meteor.png) 0 50% no-repeat;
   /* z-index: 1; */
   position: absolute;
   bottom: 200px;
