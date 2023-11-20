@@ -1,4 +1,11 @@
 
+@font-face {
+  font-family: 'pixel-emulator'; /* Give your font a name */
+  src: url('./fonts/Pixel Emulator.otf') format('opentype'); /* Adjust the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
 #root{
   display:flex;
   flex-direction: row;

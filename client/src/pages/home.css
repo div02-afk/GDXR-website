@@ -17,6 +17,7 @@
   height: fit-content;
   /* font-size: 3vw; */
   display: flex;
+  font-family: 'pixel-emulator', sans-serif;
   justify-content: center;
   text-align: center;
   color: white;
