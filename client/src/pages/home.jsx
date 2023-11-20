@@ -16,7 +16,7 @@ export default function Home() {
               <img src="images/vrimage.png" alt="vrimage" />
             </div>
             AIT VR Tour</div>
-          <div className="aboutEvnet">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
+          <div className="aboutEvent">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
 
 
         </div>
@@ -27,7 +27,7 @@ export default function Home() {
               <img src="images/vrimage.png" alt="vrimage" />
             </div>
             AIT VR Tour</div>
-          <div className="aboutEvnet">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
+          <div className="aboutEvent">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
 
 
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
               <img src="images/vrimage.png" alt="vrimage" />
             </div>
             AIT VR Tour</div>
-          <div className="aboutEvnet">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
+          <div className="aboutEvent">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
 
 
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
               <img src="images/vrimage.png" alt="vrimage" />
             </div>
             AIT VR Tour</div>
-          <div className="aboutEvnet">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
+          <div className="aboutEvent">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
 
 
         </div>
