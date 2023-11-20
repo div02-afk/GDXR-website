@@ -59,8 +59,15 @@ a:hover {
   max-height: 100px;  
   background-size: auto 100px;
 }
-
+.eventImage img{
+  width: 100%;
+}
+.contentText{
+  display: flex;
+  flex-direction: column;
+}
 .meteor {
+  z-index: -1;
   animation: movement_meteor linear 15s infinite both reverse;
 }
 @keyframes movement_meteor {
@@ -68,7 +75,7 @@ a:hover {
     background-position: -100px 100%;
   }
   100% {
-    background-position: 2000px 1%;
+    background-position: 1600px 1%;
   }
 }
 .meteor {
