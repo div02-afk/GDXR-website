@@ -90,6 +90,11 @@ nav {
 ul{
   list-style: none;
   height: 100%;
+  margin-top: 10vh;
+}
+.listitem{
+  font-size: 7vw;
+  margin-top: 15%;
 }
 
 @media (max-width:800px) {
