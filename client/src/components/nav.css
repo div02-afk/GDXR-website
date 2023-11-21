@@ -103,5 +103,10 @@ ul{
     }
 }
 
-  
+@media (max-width:400px) {
+  .toggleBars{
+    top:30px;
+    left:30px;
+  }
+}
 

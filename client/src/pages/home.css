@@ -104,7 +104,18 @@ body{
   .contentText{
     width: 80%;
   }
+  .title {
+    /* margin-top: 500px; */
+    font-size: 20px;
+  }
 }
+@media screen and (max-width :400px) {
+  
+  .title {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .title {
     /* font-size: 50px; */
@@ -138,3 +149,11 @@ body{
   color: grey;
 }
 
+@media screen and (max-width :350px) {
+  
+  .title {
+    margin-top: 10vh;
+    font-size: 18px;
+    
+  }
+}

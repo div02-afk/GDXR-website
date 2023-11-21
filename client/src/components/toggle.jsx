@@ -1,4 +1,8 @@
 // Navbar.js
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+
 export default function Navbar() {
     const toggle = () => {
         const toggleContainer = document.getElementById("toggleContainer");
@@ -8,7 +12,7 @@ export default function Navbar() {
     return (
         <div className="toggleContainer1">
             <div className="toggleBars">
-                <button onClick={toggle}>toggle</button>
+                <button onClick={toggle} style={{background:"transparent", border:0}}><FontAwesomeIcon icon={faBars} size="xl" style={{color: "#ffffff",}} /></button>
             </div>
             <div id="toggleContainer" className="content-container translate">
                 <div className="toggle">

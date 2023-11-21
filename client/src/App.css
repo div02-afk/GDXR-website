@@ -18,9 +18,9 @@ body {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.24),       transparent),
-    radial-gradient(circle at 20% 80%, rgba(41, 55, 255, 0.058), transparent);
-  background-repeat: repeat;
+  /* background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.24),       transparent), */
+    /* radial-gradient(circle at 20% 80%, rgba(41, 55, 255, 0.058), transparent); */
+  /* background-repeat:round */
 }
 canvas {
   position: fixed;
