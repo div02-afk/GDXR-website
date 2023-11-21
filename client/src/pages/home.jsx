@@ -18,7 +18,7 @@ export default function Home() {
             AIT VR Tour</div>
           <div className="aboutEvent">          Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing </div>
 
-
+    
         </div>
         <div className="contentText">
 
