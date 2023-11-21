@@ -13,14 +13,8 @@ export default function Navbar() {
                 <div className="navLink">Home</div>
                 <div className="navLink">Home</div>
             </div>
-
-            <div className="share">
-            <div className="navLink">Home</div>
-                <div className="navLink">Home</div>
-                <div className="navLink">Home</div>
-                <div className="navLink">Home</div>
-            </div>
             </nav>
         </div>
+        
     )
 }

@@ -9,9 +9,20 @@
   /* height: 100%; */
   /* height: 100vh; */
 }
-.body{
+
+body{
   padding-left: 76px;
   width: calc(100vw - 76px);
+  /* height: 100%; */
+  font-family: Arial, Helvetica, sans-serif;
+
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
 }
 .title {
   margin-top: 5vh;
@@ -113,9 +124,7 @@
     /* margin-right: auto; */
     flex-direction: row;
   }
-  .navBar{
-    display: none;
-  }
+
   body{
     padding: 0px;
     margin: 0px;

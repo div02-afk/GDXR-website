@@ -50,3 +50,53 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
+@media (max-width:800px) {
+  .navBar{
+    display: none;
+  }
+} 
+.toggleBars {
+  position: fixed;
+  top: 50px;
+  left: 50px; 
+  z-index: 999; 
+}
+
+.content-container {
+  width: 200px; 
+  overflow: hidden; 
+}
+.toggleContainer1{
+  display: none;
+  position: fixed;
+  z-index: 11;
+
+}
+.toggle {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(212, 212, 212, 0.8);
+  border-radius: 0px 20px 20px 0px;
+  height: 100vh;
+  width: 70vw;
+}
+
+.translate {
+  transform: translateX(-200px);
+  transition: 1s;
+}
+
+ul{
+  list-style: none;
+  height: 100%;
+}
+
+@media (max-width:800px) {
+    .toggleContainer1{
+      display: block;
+    }
+}
+
+  
+
