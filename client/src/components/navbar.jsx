@@ -1,5 +1,7 @@
 import logo from '../assets/Group 6 10.svg';
-
+// Navbar.js
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 export default function Navbar() {
     return(
         <div className="navBar">
@@ -8,7 +10,9 @@ export default function Navbar() {
             </div>
             <nav>
             <div className="navLinks">
-                <div className="navLink">Home</div>
+                <div className="navLink">
+              Home
+                </div>
                 <div className="navLink">Home</div>
                 <div className="navLink">Home</div>
                 <div className="navLink">Home</div>
