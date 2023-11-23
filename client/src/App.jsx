@@ -1,10 +1,12 @@
 import { useState } from "react";
-import "./pages/home.css";
-import "./App.css"
 import "./components/nav.css"
+import "./App.css"
+import "./pages/home.css"
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
 import Toggle from "./components/toggle";
+import { BrowserRouter, Route,Routes } from "react-router-dom";
+import Event from "./pages/event";
 function App() {
 
   return (
@@ -13,8 +15,14 @@ function App() {
     </canvas>
       <Toggle/>
       <Navbar />
-
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/event" element={<Event />} />
+        </Routes>
+      </BrowserRouter>
+      {/* <Event/> */}
+      {/* <Home /> */}
       
     </>
   );

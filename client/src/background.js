@@ -1,13 +1,10 @@
-/*          *     .        *  .    *    *   . 
- .  *  move your mouse to over the stars   .
- *  .  .   change these values:   .  *
-   .      * .        .          * .       */
+
 
 addEventListener("load", () => {
   const STAR_COLOR = "#fff";
   const STAR_SIZE = 3;
   const STAR_MIN_SCALE = 0.2;
-  const OVERFLOW_THRESHOLD = 50;
+  const OVERFLOW_THRESHOLD = 30;
   const STAR_COUNT = (window.innerWidth + window.innerHeight) / 8;
   const canvas = document.getElementById("canvas");
   const context = canvas.getContext("2d");

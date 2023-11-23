@@ -1,7 +1,7 @@
 
 @font-face {
-  font-family: 'pixel-emulator'; /* Give your font a name */
-  src: url('./fonts/Pixel Emulator.otf') format('opentype'); /* Adjust the path accordingly */
+  font-family: 'pixel-emulator'; 
+  src: url('./fonts/Pixel Emulator.otf') format('opentype'); 
   font-weight: normal;
   font-style: normal;
 }
