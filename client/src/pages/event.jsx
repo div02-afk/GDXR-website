@@ -1,6 +1,6 @@
 import React from "react";
 import "./event.css";
-
+import { EmblaCarousel } from "../components/gallery";
 export default function Event() {
   return (
     <div className="event">
@@ -25,6 +25,9 @@ export default function Event() {
             Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
           </div>
         </div>
+      </div>
+      <div className="gallery">
+        <EmblaCarousel />
       </div>
     </div>
   );

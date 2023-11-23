@@ -24,6 +24,9 @@
   
     
   }
+  .gallery{
+    margin-top : 10vh;
+  }
   .title {
     margin-top: 5vh;
     margin-left: 4rem;
@@ -40,7 +43,8 @@
   }
   
   .content {
-    margin-top: 1rem;
+    margin-top: 10vh;
+    /* margin-top: 1rem; */
     display: flex;
     width: 100%;
     /* margin:auto; */
