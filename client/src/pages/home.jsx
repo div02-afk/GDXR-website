@@ -11,17 +11,17 @@ export default function Home() {
   return (
     <div className="landing">
       <div className="home">
-        <div className= "heading">
-        <div className="title">
-          Game Development <br />
-          and <br />
-          eXtended Reality club
+        <div className="heading">
+          <div className="title">
+            Game Development <br />
+            and <br />
+            eXtended Reality club
+          </div>
         </div>
-        </div>
-        how can i  create an arc in blender while extruding a face
+
         <div className="parallax-layer ship"></div>
         <div className="content">
-          <div className="contentText" >
+          <div className="contentText">
             <div className="projectName">
               <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
@@ -45,7 +45,12 @@ export default function Home() {
               Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
             </div>
           </div>
-          <div className="contentText" onClick = {()=>{window.location.href = "/gameathon"}}>
+          <div
+            className="contentText"
+            onClick={() => {
+              window.location.href = "/gameathon";
+            }}
+          >
             <div className="projectName">
               <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
@@ -57,12 +62,12 @@ export default function Home() {
               Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
             </div>
           </div>
-          <div className="contentText">
+          <div className="contentText" onClick={() =>{window.location.href = "/genesis"}}>
             <div className="projectName">
               <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
-              AIT VR Tour
+              Genesis
             </div>
             <div className="aboutEvent">
               {" "}
@@ -74,22 +79,23 @@ export default function Home() {
       <div className="about" id="about">
         <div className="title">About Us</div>
         <div className="contentText">
-        <div className="aboutContent">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
-          doloribus beatae repellat veritatis eveniet error facere, sit ipsam
-          minima commodi ad reiciendis, hic aspernatur iste exercitationem quia!
-          Necessitatibus, aperiam.
+          <div className="aboutContent">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
+            doloribus beatae repellat veritatis eveniet error facere, sit ipsam
+            minima commodi ad reiciendis, hic aspernatur iste exercitationem
+            quia! Necessitatibus, aperiam.
+          </div>
         </div>
       </div>
+      <div className="">Events</div>
+      <div className="title" id="team">
+        OUR Team{" "}
       </div>
-      
-      <div className="title">OUR Team </div>
       <div className="title">SEC's</div>
-      <Ourteam numberOfCards={2}/>
+      <Ourteam numberOfCards={2} />
       <div className="title">Joint-sec</div>
 
-      <Ourteam numberOfCards={5}/>
-
+      <Ourteam numberOfCards={5} />
 
       <div className="footer" id="footer">
         <div className="title contact" id="contact">

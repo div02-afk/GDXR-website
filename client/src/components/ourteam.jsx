@@ -4,7 +4,7 @@ import TeamMemberCard from './TeamMemberCard';
 
 const Ourteam = ({ numberOfCards }) => {
   return (
-    <div className="cardContainer">
+    <div className="cardContainer" >
       {Array.from({ length: numberOfCards }).map((_, index) => (
         <TeamMemberCard
           key={index}

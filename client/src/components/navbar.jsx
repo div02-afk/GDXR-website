@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { faHeadset } from "@fortawesome/free-solid-svg-icons";
-import {faPeopleLine} from "@fortawesome/free-solid-svg-icons";
+import {faPeopleLine,faInfo} from "@fortawesome/free-solid-svg-icons";
 export default function Navbar() {
     const navigate = useNavigate();
   return (
@@ -14,7 +14,8 @@ export default function Navbar() {
       <nav>
         <div className="navLinks">
           <div className="navLink" onClick = {()=>{window.location.href = "/"}}><FontAwesomeIcon icon={faHouse} /></div>
-          <div className="navLink" onClick={()=>{window.location.href ="/#about"}}><FontAwesomeIcon icon= {faPeopleLine}/></div>
+          <div className="navLink" onClick={()=>{window.location.href ="/#about"}}><FontAwesomeIcon icon={faInfo} style={{color: "#ffffff",}} /></div>
+          <div className="navLink" onClick={()=>{window.location.href ="/#team"}}><FontAwesomeIcon icon= {faPeopleLine}/></div>
           <div className="navLink" onClick={()=>{window.location.href ="/#contact"}}><FontAwesomeIcon icon={faHeadset} /></div>
         </div>
       </nav>
