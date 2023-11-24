@@ -35,7 +35,7 @@ canvas {
   font-size: 3rem;
   color: #fff;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
 
 }
@@ -44,6 +44,7 @@ canvas {
   animation: movement_car linear 15s infinite both reverse;
   z-index: 999;
 }
+
 @keyframes movement_car {
   0% {
     background-position: 2000px 100%;
@@ -57,7 +58,8 @@ canvas {
   /* z-index: 1; */
   /* position: absolute; */
   /* bottom: 200px; */
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  padding-top:4rem;
   left: 0;
   width: 100%;
   height: 100%;
@@ -71,6 +73,7 @@ canvas {
   display: flex;
   flex-direction: column;
 }
+
 .meteor {
   z-index: -1;
   animation: movement_meteor linear 15s infinite both reverse;
