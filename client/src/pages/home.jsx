@@ -90,7 +90,7 @@ export default function Home() {
             quia! Necessitatibus, aperiam.
           </div>
           <div className="logo">
-            <img src="images/logo.png" alt="" />
+            <img src="images/logo.svg" alt="" />
           </div>
         </div>
       </div>
