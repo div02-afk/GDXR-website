@@ -3,7 +3,7 @@ import './TeamMemberCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const TeamMemberCard = ({ key, name, role, imageSrc, facebookLink, instagramLink, twitterLink }) => {
+const TeamMemberCard = ({ name, role, imageSrc, facebookLink, instagramLink, twitterLink }) => {
   return (
     <div className="profile-card">
       <div className="img">

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import "./components/nav.css"
 import "./App.css"
 // import "./pages/home.css"
@@ -7,11 +7,30 @@ import Navbar from "./components/navbar";
 import Toggle from "./components/toggle";
 import Genesis from "./pages/genesis";
 import Gameathon from "./pages/gameathon";
+import Model from "./components/3dmodel";
 import { BrowserRouter, Route,Routes } from "react-router-dom";
 function App() {
+  
+  const [rotation ,setRotation] = useState(0);
+  useEffect(() => {
 
+    const handleScroll = () => {
+      const rot = window.scrollY / 10;
+      setRotation(rot+rotation);
+      // console.log((window.scrollY));
+      
+      // console.log(scale)
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [rotation]);
   return (
     <>
+    <Model rotation = {`${rotation}`}/>
     <canvas id = "canvas">
     
     </canvas>
