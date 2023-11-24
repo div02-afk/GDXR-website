@@ -82,12 +82,15 @@ export default function Home() {
       </div>
       <div className="about" id="about">
         <div className="title">About Us</div>
-        <div className="contentText">
+        <div className="contentTextAbout">
           <div className="aboutContent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
             doloribus beatae repellat veritatis eveniet error facere, sit ipsam
             minima commodi ad reiciendis, hic aspernatur iste exercitationem
             quia! Necessitatibus, aperiam.
+          </div>
+          <div className="logo">
+            <img src="images/logo.png" alt="" />
           </div>
         </div>
       </div>
