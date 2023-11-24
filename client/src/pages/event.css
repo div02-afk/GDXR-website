@@ -57,8 +57,9 @@
   
   .contentText {
     position: relative;
-    width: 200px;
+    width: 30%;
     min-height: 100px;
+    max-width: 200px;
     /* height: 150px; */
     margin-left: 30px;
     margin-top: 30px;
