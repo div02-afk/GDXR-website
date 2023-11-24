@@ -22,9 +22,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-.gallery {
-  margin-top: 10vh;
-}
+/* .gallery {
+  margin-top: 5v;
+} */
 
 .embla {
   overflow: hidden;
@@ -202,5 +202,13 @@ body {
   .title {
     margin-top: 10vh;
     font-size: 18px;
+  }
+}
+.embla__slide img{
+  width: 50vw;
+}
+@media screen and (max-width:800px) {
+  .embla__slide img{
+    width: 80vw;
   }
 }
