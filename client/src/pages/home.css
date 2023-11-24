@@ -49,29 +49,17 @@ body{
   color: white;
   font-size: 10px;
 }
-.contact-title {
-  /* margin-top: 5vh; */
+.contact{
   margin-left: 1rem;
-  margin-right: 1rem;
-  max-width: 60%;
-  min-width: max-content;
-  height: fit-content;
-  /* font-size: 3vw; */
-  display: flex;
-  font-family: 'pixel-emulator', sans-serif;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 1.5rem;
-}
+  margin:0;
 
+}
 .footer{
-  background-color: rgba(128, 128, 128, 0.107);
-  width: 100%;
+  width: 90%;
   height: 100px;
   /* background-color: rgb(0, 161, 161); */
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   color: white;
   font-size: 1.2em;
@@ -79,8 +67,7 @@ body{
 }
 
 .contactUsContent{
-  width: 30%;
-  margin-right: 4rem;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -88,8 +75,7 @@ body{
   align-items: center;
 }
 .content {
-  margin:0;
-
+  margin-top: 1rem;
   display: flex;
   /* margin:auto; */
   flex-direction: row;
@@ -98,10 +84,7 @@ body{
   flex-wrap: wrap;
   width: 100%;
 }
-.social{
-  align-items: center;
-  text-align: center;
-}
+
 .contentText {
   position: relative;
   width: 200px;
@@ -149,12 +132,9 @@ body{
 .projectImage{
   width: 100%;
 }
-@media screen and (max-width: 1104px) {
+@media screen and (min-width: 1104px) {
   .title {
     /* font-size: 70px; */
-  }
-  .home{
-    height: unset ;
   }
 
 }
@@ -162,10 +142,8 @@ body{
   .contentText{
     width: 80%;
   }
-  
-  .ship{
-    height:100px;
-    z-index: 999;
+  .home{
+    height: unset ;
   }
   .title {
     /* margin-top: 500px; */
@@ -186,9 +164,6 @@ body{
     /* margin-left: 2rem; */
     width: 100%;
     margin: 10vw auto;
-  }
-  .home{
-    height: unset ;
   }
   .contentText{
     margin: auto;
