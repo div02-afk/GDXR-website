@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="">Events</div>
+      {/* <div className="">Events</div> */}
       <div className="title" id="team">
         OUR Team{" "}
       </div>
@@ -100,7 +100,7 @@ export default function Home() {
       <div className="title">Joint-sec</div>
       
       <Ourteam numberOfCards={5} />
-
+      
       <div className="footer" id="footer">
         <div className="title contact" id="contact">
           Contact Us
@@ -109,7 +109,7 @@ export default function Home() {
           <a className="social" href={"https://www.facebook.com/GDXR.AIT/"}>
             <FontAwesomeIcon
               icon={faFacebook}
-              size={"2xl"}
+              size={window.innerWidth > 600 ? "2xl" : "lg"}
               style={{ color: "#ffffff" }}
               className="social"
             />
@@ -117,7 +117,7 @@ export default function Home() {
           <a className="social" href={"https://www.instagram.com/gdxr_ait"}>
             <FontAwesomeIcon
               icon={faInstagram}
-              size={"2xl"}
+              size={window.innerWidth > 600 ? "2xl" : "lg"}
               style={{ color: "#ffffff" }}
               className="social"
             />
@@ -128,7 +128,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              size={"2xl"}
+              size={window.innerWidth > 600 ? "2xl" : "lg"}
               style={{ color: "#ffffff" }}
               className="social"
             />

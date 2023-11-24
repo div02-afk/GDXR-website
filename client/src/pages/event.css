@@ -67,7 +67,7 @@ body {
   object-fit: cover;
 }
 
-.title {
+.event-title {
   /* margin-top: 5vh; */
   margin-left: 4rem;
   width: 100%;
@@ -80,11 +80,10 @@ body {
   align-items: center;
   color: white;
   font-size: 3vw;
-}
-.event-title{
   margin-left:0;
 }
-.content {
+
+.event-content {
   margin-top: 10vh;
   /* margin-top: 1rem; */
   display: flex;
@@ -171,7 +170,7 @@ body {
     /* font-size: 50px; */
     /* margin-left: 2rem; */
     width: 100%;
-    margin: 10vw auto;
+    /* margin: 10vw auto; */
   }
   .contentText {
     margin: auto;
@@ -206,7 +205,7 @@ body {
 
 @media screen and (max-width: 350px) {
   .title {
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     font-size: 18px;
   }
 }

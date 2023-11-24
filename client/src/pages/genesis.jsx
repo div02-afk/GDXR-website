@@ -4,8 +4,8 @@ import { EmblaCarousel } from "../components/gallery";
 export default function Genesis() {
   return (
     <div className="event">
-      <div className="title event-title">Genesis</div>
-      <div className="content">
+      <div className="event-title">Genesis</div>
+      <div className="event-content">
         <div className="contentText">
           <div className="projectName">
             ABOUT
