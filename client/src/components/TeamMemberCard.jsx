@@ -1,7 +1,9 @@
-// import React from 'react';
-import './TeamMemberCard.css';  // Make sure to import your CSS file
+import React from 'react';
+import './TeamMemberCard.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const TeamMemberCard = ({key , name, role, imageSrc, facebookLink, instagramLink, twitterLink }) => {
+const TeamMemberCard = ({ key, name, role, imageSrc, facebookLink, instagramLink, twitterLink }) => {
   return (
     <div className="profile-card">
       <div className="img">
@@ -11,9 +13,15 @@ const TeamMemberCard = ({key , name, role, imageSrc, facebookLink, instagramLink
         <h3>{name}</h3>
         <p>{role}</p>
         <div className="social-links">
-          <a href={facebookLink}><i className="fab fa-facebook"></i></a>
-          <a href={instagramLink}><i className="fab fa-instagram"></i></a>
-          <a href={twitterLink}><i className="fab fa-twitter"></i></a>
+          <a href={facebookLink}>
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href={instagramLink}>
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a href={twitterLink}>
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
         </div>
       </div>
     </div>

@@ -68,12 +68,12 @@
   }
   .caption p{
     font-size: 15px;
-    color: #0c52a1;
+    color: #fff;
     font-family: sans-serif;
     margin: 2px 0 9px 0;
   }
   .caption .social-links a{
-    color: #333;
+    color: #fff;
     margin-right: 15px;
     font-size: 21px;
     transition: .6s;
