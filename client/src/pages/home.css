@@ -75,7 +75,8 @@ body{
   align-items: center;
 }
 .content {
-  margin-top: 1rem;
+  margin:0;
+
   display: flex;
   /* margin:auto; */
   flex-direction: row;
@@ -144,6 +145,10 @@ body{
   }
   .home{
     height: unset ;
+  }
+  .ship{
+    height:100px;
+    z-index: 999;
   }
   .title {
     /* margin-top: 500px; */
