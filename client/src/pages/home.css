@@ -1,12 +1,14 @@
 .landing{
   width: 100%;
+  margin-top: 5vh;
   /* height: 100vh; */
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: center; */
 }
 
-.home,.about {
+.about,.home {
+  
   display: flex;
   margin: 0;
   padding: 0;
@@ -34,7 +36,7 @@ body{
   
 }
 .title {
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
   margin-left: 4rem;
   max-width: 60%;
   min-width: max-content;
@@ -47,6 +49,11 @@ body{
   color: white;
   font-size: 10px;
 }
+.contact{
+  margin-left: 1rem;
+  margin:0;
+
+}
 .footer{
   width: 90%;
   height: 100px;
@@ -58,10 +65,7 @@ body{
   font-size: 1.2em;
   font-weight: 700;
 }
-.contact{
-  margin-left: 1rem;
 
-}
 .contactUsContent{
   width: 90%;
   height: 100%;
@@ -137,6 +141,9 @@ body{
 @media screen and (max-width :500px) {
   .contentText{
     width: 80%;
+  }
+  .home{
+    height: unset ;
   }
   .title {
     /* margin-top: 500px; */
