@@ -22,10 +22,11 @@ export default function Home() {
         <div className="parallax-layer ship"></div>
         <div className="content">
           <div className="contentText">
-            <div className="projectName">
-              <div className="eventImage">
+          <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               AIT VR Tour
             </div>
             <div className="aboutEvent">
@@ -34,10 +35,11 @@ export default function Home() {
             </div>
           </div>
           <div className="contentText">
-            <div className="projectName">
-              <div className="eventImage">
+          <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               AIT VR Tour
             </div>
             <div className="aboutEvent">
@@ -51,10 +53,11 @@ export default function Home() {
               window.location.href = "/gameathon";
             }}
           >
-            <div className="projectName">
-              <div className="eventImage">
+            <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               Game-a-Thon
             </div>
             <div className="aboutEvent">
@@ -63,10 +66,11 @@ export default function Home() {
             </div>
           </div>
           <div className="contentText" onClick={() =>{window.location.href = "/genesis"}}>
-            <div className="projectName">
-              <div className="eventImage">
+          <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               Genesis
             </div>
             <div className="aboutEvent">
@@ -94,7 +98,7 @@ export default function Home() {
       <div className="title">SEC's</div>
       <Ourteam numberOfCards={2} />
       <div className="title">Joint-sec</div>
-
+      
       <Ourteam numberOfCards={5} />
 
       <div className="footer" id="footer">

@@ -44,7 +44,6 @@ body{
 }
 .title {
   /* margin-top: 5vh; */
-  
   display: flex;
   font-family: 'pixel-emulator', sans-serif;
   justify-content: center;
@@ -135,9 +134,12 @@ body{
 .projectImage{
   width: 100%;
 }
-@media screen and (min-width: 1104px) {
+@media screen and (max-width: 1104px) {
   .title {
     /* font-size: 70px; */
+  }
+  .home{
+    height: unset ;
   }
 
 }
@@ -147,10 +149,16 @@ body{
   }
   .home{
     height: unset ;
+
+  }
+  .heading{
+    max-width: 100%;
+    justify-content: center;
   }
   .title {
     /* margin-top: 500px; */
     font-size: 20px;
+    justify-content: center;
   }
 }
 @media screen and (max-width :400px) {
@@ -177,7 +185,6 @@ body{
   .contentText {
     margin-top: 2rem;
     width:50% ;
-    /* margin-right: auto; */
     flex-direction: row;
   }
 
