@@ -87,7 +87,7 @@ canvas {
   }
 }
 .meteor {
-  background: url(images/meteor.png) 0 50% no-repeat;
+  background: url(images/meteor.gif) 0 50% no-repeat;
   /* z-index: 1; */
   position: absolute;
   bottom: 200px;
