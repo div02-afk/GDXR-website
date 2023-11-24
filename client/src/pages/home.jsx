@@ -5,17 +5,21 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-
+import Ourteam from "./../components/ourteam";
+// import TeamMemberCard from "./../components/ourteam";
 export default function Home() {
   console.log(window.innerWidth);
   return (
     <div className="landing">
       <div className="home">
+        <div className= "heading">
         <div className="title">
           Game Development <br />
           and <br />
           eXtended Reality club
         </div>
+        </div>
+        how can i  create an arc in blender while extruding a face
         <div className="parallax-layer ship"></div>
         <div className="content">
           <div className="contentText" >
@@ -84,6 +88,14 @@ export default function Home() {
       </div>
       </div>
       
+      <div className="title">OUR Team </div>
+      <div className="title">SEC's</div>
+      <Ourteam numberOfCards={2}/>
+      <div className="title">Joint-sec</div>
+
+      <Ourteam numberOfCards={5}/>
+
+
       <div className="footer" id="footer">
         <div className="contact-title" id="contact">
           Contact Us
