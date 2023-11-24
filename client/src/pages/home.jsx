@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
+  console.log(window.innerWidth);
   return (
     <div className="landing">
       <div className="home">
@@ -18,10 +19,11 @@ export default function Home() {
         <div className="parallax-layer ship"></div>
         <div className="content">
           <div className="contentText" >
-            <div className="projectName">
-              <div className="eventImage">
+          <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               AIT VR Tour
             </div>
             <div className="aboutEvent">
@@ -30,10 +32,11 @@ export default function Home() {
             </div>
           </div>
           <div className="contentText">
-            <div className="projectName">
-              <div className="eventImage">
+          <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               AIT VR Tour
             </div>
             <div className="aboutEvent">
@@ -42,10 +45,11 @@ export default function Home() {
             </div>
           </div>
           <div className="contentText" onClick = {()=>{window.location.href = "/gameathon"}}>
-            <div className="projectName">
-              <div className="eventImage">
+          <div className="eventImage">
                 <img src="images/vrimage.png" alt="vrimage" />
               </div>
+            <div className="projectName">
+              
               Game-a-Thon
             </div>
             <div className="aboutEvent">
@@ -53,12 +57,13 @@ export default function Home() {
               Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
             </div>
           </div>
-          <div className="contentText">
-            <div className="projectName">
-              <div className="eventImage">
-                <img src="images/vrimage.png" alt="vrimage" />
+          <div className="contentText" onClick = {()=>{window.location.href = "/genesis"}}>
+          <div className="eventImage">
+                <img src="images/vrimage.png" alt="vrimage"  width = {"200px"} />
               </div>
-              AIT VR Tour
+            <div className="projectName">
+              Genesis
+              
             </div>
             <div className="aboutEvent">
               {" "}
@@ -80,14 +85,14 @@ export default function Home() {
       </div>
       
       <div className="footer" id="footer">
-        <div className="title contact" id="contact">
+        <div className="contact-title" id="contact">
           Contact Us
         </div>
         <div className="contactUsContent">
           <a className="social" href={"https://www.facebook.com/GDXR.AIT/"}>
             <FontAwesomeIcon
               icon={faFacebook}
-              size={"2xl"}
+              size={window.innerWidth > 400 ? "2xl" : "lg"}
               style={{ color: "#ffffff" }}
               className="social"
             />
@@ -95,7 +100,7 @@ export default function Home() {
           <a className="social" href={"https://www.instagram.com/gdxr_ait"}>
             <FontAwesomeIcon
               icon={faInstagram}
-              size={"2xl"}
+              size={window.innerWidth > 400 ? "2xl" : "lg"}
               style={{ color: "#ffffff" }}
               className="social"
             />
@@ -106,7 +111,7 @@ export default function Home() {
           >
             <FontAwesomeIcon
               icon={faLinkedin}
-              size={"2xl"}
+              size={window.innerWidth > 400 ? "2xl" : "lg"}
               style={{ color: "#ffffff" }}
               className="social"
             />

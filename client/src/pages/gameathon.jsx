@@ -4,7 +4,7 @@ import { EmblaCarousel } from "../components/gallery";
 export default function Gameathon() {
   return (
     <div className="event">
-      <div className="title">Game - a - thon</div>
+      <div className="title event-title">Game - a - thon</div>
       <div className="content">
         <div className="contentText">
           <div className="projectName">
