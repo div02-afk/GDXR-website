@@ -34,8 +34,11 @@
 }
 .navLink {
   padding: 15px 5px;
+  width: 2rem;
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 2vh;
   background-color: rgba(98, 98, 98, 0.262);
   color: white;

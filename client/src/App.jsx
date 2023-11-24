@@ -14,9 +14,10 @@ function App() {
     <>
     <canvas id = "canvas">
     </canvas>
+      
+      <BrowserRouter>
       <Toggle/>
       <Navbar />
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

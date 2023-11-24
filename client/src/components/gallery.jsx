@@ -1,6 +1,5 @@
 import React,{useCallback, useEffect} from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import './gallery.css'
 import Autoplay from 'embla-carousel-autoplay'
 
 export const EmblaCarousel = () => {

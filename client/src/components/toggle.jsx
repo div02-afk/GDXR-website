@@ -18,10 +18,10 @@ export default function Navbar() {
                 <div className="toggle">
                     <div className="content">
                         <ul className="navlist">
-                            <li className="listitem">AboutUs</li>
+                            <li className="listitem" onClick = {()=>{window.location.href = "/#about"}}>AboutUs</li>
                             <li className="listitem">Events</li>
                             <li className="listitem">Team</li>
-                            <li className="listitem">ContactUs</li>
+                            <li className="listitem" onClick = {()=>{window.location.href = "/#contact"}}>ContactUs</li>
                         </ul>
                     </div>
                 </div>
