@@ -15,6 +15,7 @@ function App() {
     <canvas id = "canvas">
     
     </canvas>
+    
     <div className="parallax-layer meteor"></div>
       <BrowserRouter>
       <Toggle/>
