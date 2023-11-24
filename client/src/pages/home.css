@@ -35,13 +35,16 @@ body{
 
   
 }
-.title {
-  /* margin-top: 5vh; */
-  margin-left: 4rem;
+.heading{
+  /* margin-left: 4rem; */
   max-width: 60%;
   min-width: max-content;
   height: fit-content;
   /* font-size: 3vw; */
+}
+.title {
+  /* margin-top: 5vh; */
+  
   display: flex;
   font-family: 'pixel-emulator', sans-serif;
   justify-content: center;

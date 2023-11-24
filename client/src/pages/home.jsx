@@ -11,11 +11,14 @@ export default function Home() {
   return (
     <div className="landing">
       <div className="home">
+        <div className= "heading">
         <div className="title">
           Game Development <br />
           and <br />
           eXtended Reality club
         </div>
+        </div>
+        how can i  create an arc in blender while extruding a face
         <div className="parallax-layer ship"></div>
         <div className="content">
           <div className="contentText" >
