@@ -34,8 +34,9 @@
 }
 .navLink {
   padding: 0.5rem 0.5rem;
-  /* width: 30px;
-  height: 10px; */
+  /* width: 2rem; */
+  /* width: 30px; */
+  /* height: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
