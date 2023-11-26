@@ -98,7 +98,7 @@ nav {
   flex-direction: column;
   background-color: rgba(212, 212, 212, 0.8);
   border-radius: 0px 20px 20px 0px;
-  height: 100vh;
+  height: 120vh;
   z-index: 9999;
   width: 70vw;
   background: rgba(255, 255, 255, 0.52);
