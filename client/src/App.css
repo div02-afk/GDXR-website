@@ -1,6 +1,6 @@
 @font-face {
   font-family: "pixel-emulator";
-  src: url("./fonts/Pixel Emulator.otf") format("opentype");
+  src: url("./assets/fonts/Pixel Emulator.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -60,7 +60,7 @@ canvas , .canvas-container{
   }
 }
 .ship {
-  background: url(images/b7a.gif) 0 50% no-repeat;
+  background: url(./assets/images/b7a.gif) 0 50% no-repeat;
   /* z-index: 1; */
   /* position: absolute; */
   /* bottom: 200px; */
@@ -93,7 +93,7 @@ canvas , .canvas-container{
   }
 }
 .meteor {
-  background: url(images/meteor.gif) 0 50% no-repeat;
+  background: url(./assets/images/meteor.gif) 0 50% no-repeat;
   /* z-index: 1; */
   position: absolute;
   bottom: 200px;

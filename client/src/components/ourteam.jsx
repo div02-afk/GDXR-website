@@ -10,7 +10,7 @@ const Ourteam = ({ numberOfCards }) => {
           key={index}
           name="Nepal Singh"
           role="Sec"
-          imageSrc="/images/71310255.jpg"
+          imageSrc="src/assets/images/71310255.jpg"
           facebookLink="github.com/nepal143"
           instagramLink="github.com/nepal143"
         />

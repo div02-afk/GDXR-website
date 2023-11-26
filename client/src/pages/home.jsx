@@ -23,7 +23,7 @@ export default function Home() {
         <div className="content">
           <div className="contentText">
           <div className="eventImage">
-                <img src="images/vrimage.png" alt="vrimage" />
+                <img src="src\assets\images\vrimage.png" alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className="contentText">
           <div className="eventImage">
-                <img src="images/vrimage.png" alt="vrimage" />
+                <img src="src\assets\images\vrimage.png" alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -54,7 +54,7 @@ export default function Home() {
             }}
           >
             <div className="eventImage">
-                <img src="images/vrimage.png" alt="vrimage" />
+                <img src="src\assets\images\vrimage.png" alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="contentText" onClick={() =>{window.location.href = "/genesis"}}>
           <div className="eventImage">
-                <img src="images/vrimage.png" alt="vrimage" />
+                <img src="src\assets\images\vrimage.png" alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -90,7 +90,7 @@ export default function Home() {
             quia! Necessitatibus, aperiam.
           </div>
           <div className="logo">
-            <img src="images/logo.svg" alt="" className="resized-image" style={{ width: "13vw",padding:"1.5rem" }} />
+            <img src="src/assets/images/logo.svg" alt="" className="resized-image" style={{ width: "13vw",padding:"1.5rem" }} />
           </div>
         </div>
       </div>
