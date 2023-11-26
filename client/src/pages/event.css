@@ -191,6 +191,12 @@ body {
     /* margin-right: auto; */
     flex-direction: column;
   }
+  .contentText {
+    margin-top: 2rem;
+    width: 70%;
+    /* margin-right: auto; */
+    flex-direction: column;
+  }
 
   body {
     padding: 0px;

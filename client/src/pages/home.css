@@ -1,15 +1,19 @@
-.landing{
+.landing {
   width: 100%;
   margin-top: 0vh;
   margin-left: 1rem;
+  z-index: 100;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
   /* height: 100vh; */
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: center; */
 }
 
-.about,.home {
-  
+.about,
+.home {
   display: flex;
   margin: 0;
   padding: 0;
@@ -17,25 +21,24 @@
   height: 100vh;
   margin-bottom: 10px;
   /* background-color:rgb(209, 209, 255); */
-
+  /* border: 1px solid white; */
   flex-direction: column;
   /* height: 100%; */
   /* height: 100vh; */
 }
 
-.aboutContent{
+.aboutContent {
   width: 70%;
 }
 
-.contentTextAbout img{
-    width: 20vw;
+.contentTextAbout img {
+  width: 20vw;
 }
 
-
-.ship{
+.ship {
   width: 100vw;
 }
-body{
+body {
   padding-left: 76px;
   width: calc(100vw - 76px);
   /* height: 100%; */
@@ -46,10 +49,8 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  
 }
-.heading{
+.heading {
   /* margin-left: 4rem; */
   max-width: 60%;
   min-width: max-content;
@@ -58,22 +59,22 @@ body{
 }
 .title {
   /* margin-top: 5vh; */
+  /* border:solid 1px white; */
   display: flex;
-  font-family: 'pixel-emulator', sans-serif;
+  font-family: "pixel-emulator", sans-serif;
   justify-content: center;
   text-align: center;
   color: white;
   font-size: 3rem;
 }
-.contact{
+.contact {
   margin-left: 1rem;
-  margin:0;
-
+  margin: 0;
 }
-.footer{
+.footer {
   width: 100%;
   height: 100px;
-  background-color: rgb(128,128,128,0.107);
+  background-color: rgb(128, 128, 128, 0.107);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -82,7 +83,7 @@ body{
   font-weight: 700;
 }
 
-.contactUsContent{
+.contactUsContent {
   margin-right: 5rem;
   width: 30%;
   height: 100%;
@@ -140,8 +141,8 @@ body{
   border: solid transparent 2px;
   border-image: linear-gradient(to bottom right, red, blue);
   border-image-slice: 1;
-  border-radius: 20px; 
-  overflow: hidden; 
+  border-radius: 20px;
+  overflow: hidden;
   backdrop-filter: blur(4px);
   background-color: rgba(104, 104, 104, 0.179);
   -webkit-backdrop-filter: blur(4px);
@@ -162,7 +163,7 @@ body{
 }
 
 /* Your existing styles */
-.aboutContent{
+.aboutContent {
   position: sticky;
 }
 .contentText {
@@ -176,47 +177,57 @@ body{
   padding: 5px 20px 10px 20px;
   background: rgba(255, 255, 255, 0.05);
 }
-.projectName{
-  margin: 10px auto ;
+.projectName {
+  margin: 10px auto;
   font-size: 1.2em;
   font-weight: 700;
 }
-.projectImage{
+.projectImage {
   width: 100%;
 }
 @media screen and (max-width: 1104px) {
-  
-  .home{
-    height: unset ;
+  .home {
+    height: unset;
   }
-
+  .home,.about,.footer,.team{
+    margin-left: 3.5%;
+  }
 }
-@media screen and (max-width :500px) {
-  .contentText{
+@media screen and (max-width: 500px) {
+  .contentText {
     width: 80%;
   }
-  .home{
-    height: unset ;
-
+  .home {
+    height: unset;
   }
-  .heading{
+  .contactUsContent {
+    width: 80%;
+    margin-right: 3rem;
+  }
+  .heading {
     max-width: 100%;
     justify-content: center;
   }
   .title {
+    
     /* margin-top: 500px; */
     font-size: 20px;
     justify-content: center;
   }
+  .home,.about,.footer,.team{
+    margin-left: 3%;
+  }
 }
-@media screen and (max-width :400px) {
-  
+@media screen and (max-width: 400px) {
   .title {
     font-size: 18px;
   }
-  .contactUsContent{
+  .contactUsContent {
     width: 100%;
     margin-right: 3rem;
+  }
+  .home,.about,.footer,.team{
+    margin-left: 3.5%;
   }
   
 }
@@ -224,45 +235,52 @@ body{
 @media screen and (max-width: 800px) {
   .title {
     /* font-size: 50px; */
-    /* margin-left: 2rem; */
+    /* margin-left: 0; */
+    
+    /* margin: 0; */
+    margin-left:1rem;
     width: 100%;
+    font-size: 2rem;
     /* margin: 10vw auto; */
   }
-  .contentText{
+  .contentText {
     margin: auto;
     width: 90%;
   }
 
-  .ship{
+  .ship {
     height: 100px;
   }
   .contentText {
     margin-top: 2rem;
-    width:50% ;
+    width: 50%;
     flex-direction: row;
   }
 
-  body{
+  body {
     padding: 0px;
     margin: 0px;
     width: 100vw;
   }
-  .projectImage img{
+  .projectImage img {
     width: auto;
   }
+  .home,.about,.footer,.team{
+    margin-left: 0.1%;
+  }
+  
 }
-.aboutEvent{
+.aboutEvent {
   color: grey;
 }
 
-@media screen and (max-width :350px) {
-  
+@media screen and (max-width: 350px) {
   .title {
     /* margin-top: 10vh; */
+    margin-left:0;
     font-size: 18px;
   }
 }
-
 
 .contentTextAbout img {
   width: 20vw;

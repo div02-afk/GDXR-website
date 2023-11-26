@@ -81,3 +81,11 @@
   .social-links a:hover{
     color: #0c52a1;
   }
+
+  @media screen and (max-width: 500px) {
+    .profile-card{
+      width: 150px;
+      height: 150px;
+      
+    }
+  }
