@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 // import { useState } from "react";
 
-export default function Navbar() {
+export default function Toggle() {
   const toggle = () => {
     const toggleContainer = document.getElementById("toggleContainer");
     toggleContainer.classList.toggle("translate");
@@ -36,17 +36,24 @@ export default function Navbar() {
               <li
                 className="listitem"
                 onClick={() => {
-                  handleClick("/#about")
+                  handleClick("/#about");
                 }}
               >
                 AboutUs
               </li>
               <li className="listitem">Events</li>
-              <li className="listitem">Team</li>
               <li
                 className="listitem"
                 onClick={() => {
-                  window.location.href = "/#contact";
+                  handleClick("/#team");
+                }}
+              >
+                Team
+              </li>
+              <li
+                className="listitem"
+                onClick={() => {
+                  handleClick("/#contact");
                 }}
               >
                 ContactUs

@@ -10,7 +10,7 @@ import Ourteam from "./../components/ourteam";
 export default function Home() {
   return (
     <div className="landing">
-      <div className="home">
+      <div className="home" id="home">
         <div className="heading">
           <div className="title">
             Game Development <br />
@@ -90,7 +90,7 @@ export default function Home() {
             quia! Necessitatibus, aperiam.
           </div>
           <div className="logo">
-            <img src="images/logo.svg" alt="" />
+            <img src="images/logo.svg" alt="" className="resized-image" style={{ width: "13vw",padding:"1.5rem" }} />
           </div>
         </div>
       </div>

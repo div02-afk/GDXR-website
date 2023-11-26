@@ -96,11 +96,13 @@ body {
   width: 100%;
 }
 
-.contentText {
+.eventContentText {
   position: relative;
   width: 30%;
+  display: flex;
+  flex-direction: column;
   min-height: 100px;
-  max-width: 200px;
+  max-width: 500px;
   /* height: 150px; */
   margin-left: 30px;
   margin-top: 30px;
@@ -108,7 +110,7 @@ body {
   overflow: hidden;
 }
 
-.contentText::before {
+.eventContentText::before {
   content: "";
   position: absolute;
   top: 0;
@@ -123,7 +125,7 @@ body {
 }
 
 /* Your existing styles */
-.contentText {
+.eventContentText {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(14px);
   color: white;
@@ -148,7 +150,7 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
-  .contentText {
+  .eventContentText {
     width: 80%;
   }
     .title {
@@ -172,7 +174,7 @@ body {
     width: 100%;
     /* margin: 10vw auto; */
   }
-  .contentText {
+  .eventContentText {
     margin: auto;
     width: 90%;
     flex-direction: column;
@@ -183,7 +185,7 @@ body {
     font-weight: 700;
   }
 
-  .contentText {
+  .eventContentText {
     margin-top: 2rem;
     width: 70%;
     /* margin-right: auto; */

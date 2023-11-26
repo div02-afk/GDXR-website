@@ -11,7 +11,7 @@ export default function Navbar() {
       <div
         className="logo"
         onClick={() => {
-          window.location.href = "/";
+          window.location.href = "/#home";
         }}
       >
         <img src={logo} width={44} height={46} alt="Logo" />
@@ -21,7 +21,7 @@ export default function Navbar() {
           <div
             className="navLink"
             onClick={() => {
-              window.location.href = "/";
+              window.location.href = "/#home";
             }}
           >
             <FontAwesomeIcon icon={faHouse} className="link-icon" />

@@ -6,7 +6,7 @@ export default function Gameathon() {
     <div className="event">
       <div className="event-title">Game - a - thon</div>
       <div className="event-content">
-        <div className="contentText">
+        <div className="eventContentText">
           <div className="projectName">
             ABOUT
           </div>
@@ -15,7 +15,7 @@ export default function Gameathon() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente dolorum sunt natus, animi officia asperiores quaerat deserunt, porro inventore a commodi minima, aperiam tempora autem sequi perspiciatis sint minus deleniti?{" "}
           </div>
         </div>
-        <div className="contentText">
+        <div className="eventContentText">
           <div className="projectName">
             STATS
           </div>

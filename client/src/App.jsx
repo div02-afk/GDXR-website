@@ -30,13 +30,14 @@ function App() {
   }, [rotation]);
   return (
     <>
-    <Model rotation = {`${rotation}`}/>
+    
     <canvas id = "canvas">
     
     </canvas>
-    
     <div className="parallax-layer meteor"></div>
       <BrowserRouter>
+      <Model rotation = {`${rotation}`}/>
+    
       <Toggle/>
       <Navbar />
         <Routes>
