@@ -6,6 +6,8 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Ourteam from "./../components/ourteam";
+import vrimg from "../assets/images/vrimage.png";
+import logo from "../assets/images/logo.svg";
 // import TeamMemberCard from "./../components/ourteam";
 export default function Home() {
   return (
@@ -23,7 +25,7 @@ export default function Home() {
         <div className="content">
           <div className="contentText">
           <div className="eventImage">
-                <img src="src\assets\images\vrimage.png" alt="vrimage" />
+                <img src={vrimg} alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -36,7 +38,7 @@ export default function Home() {
           </div>
           <div className="contentText">
           <div className="eventImage">
-                <img src="src\assets\images\vrimage.png" alt="vrimage" />
+          <img src={vrimg} alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -54,7 +56,7 @@ export default function Home() {
             }}
           >
             <div className="eventImage">
-                <img src="src\assets\images\vrimage.png" alt="vrimage" />
+            <img src={vrimg} alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -67,7 +69,7 @@ export default function Home() {
           </div>
           <div className="contentText" onClick={() =>{window.location.href = "/genesis"}}>
           <div className="eventImage">
-                <img src="src\assets\images\vrimage.png" alt="vrimage" />
+          <img src={vrimg} alt="vrimage" />
               </div>
             <div className="projectName">
               
@@ -90,7 +92,7 @@ export default function Home() {
             quia! Necessitatibus, aperiam.
           </div>
           <div className="logo">
-            <img src="src/assets/images/logo.svg" alt="" className="resized-image" style={{ width: "13vw",padding:"1.5rem" }} />
+            <img src={logo} alt="" className="resized-image" style={{ width: "13vw",padding:"1.5rem" }} />
           </div>
         </div>
       </div>

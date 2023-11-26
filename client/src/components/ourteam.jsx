@@ -1,7 +1,7 @@
 import React from 'react';
 import './ourteam.css';
 import TeamMemberCard from './TeamMemberCard';
-
+import picture from "../assets/images/71310255.jpg";
 const Ourteam = ({ numberOfCards }) => {
   return (
     <div className="cardContainer" >
@@ -10,7 +10,7 @@ const Ourteam = ({ numberOfCards }) => {
           key={index}
           name="Nepal Singh"
           role="Sec"
-          imageSrc="src/assets/images/71310255.jpg"
+          imageSrc={picture}
           facebookLink="github.com/nepal143"
           instagramLink="github.com/nepal143"
         />
