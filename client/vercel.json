@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/gameathon", "destination": "/src/pagesgameathon.jsx" },
-    { "source": "/genesis", "destination": "/src/pages/gensis.jsx" }
+    { "source": "/gameathon", "destination": "/src/components/gameathon.jsx" },
+    { "source": "/genesis", "destination": "/src/components/gensis.jsx" }
   ]
 }
