@@ -19,7 +19,7 @@
   -webkit-backdrop-filter: blur(14px);
   /* border-radius: 10px; */
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
-  border:1px solid transparent;
+  border: 1px solid transparent;
   z-index: 9999;
 }
 
@@ -33,7 +33,7 @@
   margin-top: 2rem;
 }
 
-.navLinks{
+.navLinks {
   margin-top: 40%;
   gap: 15px;
 }
@@ -55,7 +55,7 @@
 }
 .logo {
   margin-top: 3rem;
-  scale:1.5;
+  scale: 1.5;
 }
 .share {
   justify-content: end;
@@ -67,31 +67,29 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
-@media (max-width:800px) {
-  .navBar{
+@media (max-width: 800px) {
+  .navBar {
     display: none;
   }
-} 
+}
 .toggleBars {
   position: fixed;
   top: 50px;
-  left: 50px; 
-  z-index: 99999; 
+  left: 50px;
+  z-index: 99999;
 }
 
 .content-container {
-  width: 200px; 
-  overflow: hidden; 
+  width: 200px;
+  overflow: hidden;
 }
-.toggleContainer1{
-
+.toggleContainer1 {
   display: none;
   position: fixed;
   z-index: 9999;
-
 }
 .toggle {
-  font-family: 'pixel-emulator';
+  font-family: "pixel-emulator";
   z-index: 10000;
   position: fixed;
   display: flex;
@@ -99,48 +97,47 @@ nav {
   background-color: rgba(212, 212, 212, 0.8);
   border-radius: 0px 20px 20px 0px;
   height: 120vh;
-  z-index: 9999;
+
   width: 70vw;
   background: rgba(255, 255, 255, 0.52);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(12.2px);
--webkit-backdrop-filter: blur(12.2px);
-border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.2px);
+  -webkit-backdrop-filter: blur(12.2px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  transition: 1s;
 }
 
 .translate {
   transform: translateX(-200px);
   transition: 1s;
   z-index: 9999;
-  
 }
 
-ul{
+ul {
   list-style: none;
   height: 100%;
   margin-top: 10vh;
 }
-.listitem{
+.listitem {
   font-size: 7vw;
   margin-top: 15%;
 }
 
-.link-icon{
+.link-icon {
   font-size: 1.3rem;
   margin-top: 15%;
 }
 
-@media (max-width:800px) {
-    .toggleContainer1{
-      display: block;
-    }
-}
-
-@media (max-width:400px) {
-  .toggleBars{
-    top:30px;
-    left:30px;
+@media (max-width: 800px) {
+  .toggleContainer1 {
+    display: block;
   }
 }
 
+@media (max-width: 400px) {
+  .toggleBars {
+    top: 30px;
+    left: 30px;
+  }
+}

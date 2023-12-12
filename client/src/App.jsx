@@ -9,6 +9,7 @@ import Toggle from "./components/toggle";
 import Genesis from "./pages/genesis";
 import Gameathon from "./pages/gameathon";
 import Model from "./components/3dmodel";
+import Footer from "./components/footer"
 import { BrowserRouter, Route,Routes } from "react-router-dom";
 function App() {
   
@@ -46,6 +47,7 @@ function App() {
           <Route path="/gameathon" element={<Gameathon />} />
           <Route path="/genesis" element={<Genesis />} />
         </Routes>
+      <Footer/>
         
       </BrowserRouter>
       {/* <Event/> */}

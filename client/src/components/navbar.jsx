@@ -45,7 +45,7 @@ export default function Navbar() {
           <div
             className="navLink"
             onClick={() => {
-              window.location.href = "/#contact";
+              window.location.href = "#contact";
             }}
           >
             <FontAwesomeIcon icon={faHeadset} className="link-icon" />

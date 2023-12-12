@@ -1,11 +1,7 @@
 // import "./home.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import Model from "./../components/3dmodel";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+
 import Ourteam from "./../components/ourteam";
 import vrimg from "../assets/images/vrimage.png";
 import logo from "../assets/images/logo.svg";
@@ -17,18 +13,11 @@ export default function Home() {
     { title: "Game-a-thon", img: vrimg, link: "/gameathon", about: "" },
     { title: "Genesis", img: vrimg, link: "/genesis", about: "" },
   ];
-  const contacts = [
-    { link: "https://www.facebook.com/GDXR.AIT/", icon: faFacebook },
-    { link: "https://www.instagram.com/gdxr_ait", icon: faInstagram },
-    {
-      link: "https://www.linkedin.com/company/ait-gdxr-club",
-      icon: faLinkedin,
-    },
-  ];
+  
   const rotation=0;
 
   return (
-    <div className="landing w-full text-white text-center xl:ml-32 xl:mr-4 lg:ml-24 lg:mr-5 z-40 " id="home">
+    <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24  z-40" id="home">
       <div className="home flex-col  h-3/7 lg:h-2/5 w-100 justify-center " >
         <div className="heading">
           <div className="title hometitle text-white text-3xl md:text-4xl lg:text-5xl xl:mt-20 lg:mt-10 mt-20 lg:text-left font-pixelEmulator">
@@ -99,27 +88,7 @@ export default function Home() {
 
         <Ourteam numberOfCards={5} />
       </div>
-      <div
-        className="footer w-full h-10 flex flex-row justify-evenly text-center align-middle mt-20"
-        id="footer"
-      >
-        <div className="title contact text-xl lg:text-3xl font-pixelEmulator ml-1" id="contact">
-          Contact Us
-        </div>
-
-        <div className="contactUsContent flex flex-row justify-evenly lg:w-1/4 w-1/2">
-          {contacts.map(({ link, icon }) => (
-            <a key={link} className="social" href={link}>
-              <FontAwesomeIcon
-                icon={icon}
-                size={window.innerWidth > 600 ? "2xl" : "lg"}
-                style={{ color: "#ffffff" }}
-                className="social"
-              />
-            </a>
-          ))}
-        </div>
-      </div>
+      
     </div>
   );
 }
