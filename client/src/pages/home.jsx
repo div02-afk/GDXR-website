@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="team w-full h-2/5 lg:h-1/2 flex flex-col justify-center text-center"
+        className="team w-full h-2/5 lg:h-1/2 flex flex-col justify-center text-center mt-20"
         id="team"
       >
         <div className="title text-3xl md:text-4xl lg:text-5xl font-pixelEmulator">
