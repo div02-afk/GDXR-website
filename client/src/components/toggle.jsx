@@ -13,7 +13,12 @@ export default function Toggle() {
     window.location.href = e;
     toggle();
   };
-
+  const navlist = [
+    { title: "About Us", link: "/#about" },
+    { title: "Events", link: "/#events" },
+    { title: "Team", link: "/#team" },
+    { title: "Contact Us", link: "/#contact" },
+  ]
   return (
     <div className="toggleContainer1">
       <div className="toggleBars">
@@ -31,34 +36,16 @@ export default function Toggle() {
 
       <div id="toggleContainer" className="content-container translate">
         <div className="toggle">
-          <div className="content">
-            <ul className="navlist">
-              <li
-                className="listitem"
-                onClick={() => {
-                  handleClick("/#about");
-                }}
+          <div className="content h-full mt-30">
+            {navlist.map(({ title, link }) => (
+              <div
+                key={title}
+                className="font-pixelEmulator text-3xl text-left"
+                onClick={() => handleClick(link)}
               >
-                AboutUs
-              </li>
-              <li className="listitem">Events</li>
-              <li
-                className="listitem"
-                onClick={() => {
-                  handleClick("/#team");
-                }}
-              >
-                Team
-              </li>
-              <li
-                className="listitem"
-                onClick={() => {
-                  handleClick("/#contact");
-                }}
-              >
-                ContactUs
-              </li>
-            </ul>
+                {title}
+              </div>
+            ))}
           </div>
         </div>
       </div>

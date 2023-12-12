@@ -16,23 +16,23 @@ const Model = (rotation) => {
   // ref.rotation.y = rotation;
   // },[])
   return (
-    <div className="canvas-container">
+    <div className="canvas-container w-2/5 -z-50">
       {/* Light is placed outside the Canvas */}
 
       <Canvas
-        className="bg-black"
-        camera={{ fov: 20, position: [0, 0, 100] }}
-        style={{ width: "100vw", height: "100%" }}
+        className="bg-transparent "
+        camera={{ fov: 20, position: [0, 0, 50] }}
+        
       >
         
         
         <ambientLight intensity={4} />
         
         <directionalLight intensity={2.7} position={[0, 0, 10]}/>
-          <Sphere position={[14, 6,0]} args={[5, 100, 100]} >
+          <Sphere position={[0, 0,0]} args={[5, 100, 100]} >
             <meshStandardMaterial attach="material" color="hotpink" />
           </Sphere>
-          <Sphere args={[7, 100, 100]} position={[20, 7, 10]}>
+          <Sphere args={[7, 100, 100]} position={[5, 3, 10]}>
             <meshStandardMaterial attach="material" color="orange" />
           </Sphere>
         

@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import "./components/nav.css"
-import "./App.css"
+// import "./App.css"
+import "./main.css"
 // import "./pages/home.css"
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
@@ -31,21 +32,21 @@ function App() {
   return (
     <>
     
-    <canvas id = "canvas">
     
-    </canvas>
     <div className="parallax-layer meteor"></div>
       <BrowserRouter>
-      <Model rotation = {`${rotation}`}/>
+      
     
       <Toggle/>
       <Navbar />
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/gameathon" element={<Gameathon />} />
           <Route path="/genesis" element={<Genesis />} />
         </Routes>
+        
       </BrowserRouter>
       {/* <Event/> */}
       {/* <Home /> */}
