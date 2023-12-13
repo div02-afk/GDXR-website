@@ -33,7 +33,7 @@ export default function Home() {
           {arr.map(({ title, img, link, about }) => (
             <div
               key={title}
-              className="contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gradient-to-br from-red-500 via-gray-900 to-blue-500 p-0.5"
+              className="contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gradient-to-br from-red-500 via-black to-blue-500 p-0.5"
               onClick={() => {
                 const url = link;
                 window.location.href = url;
@@ -60,20 +60,21 @@ export default function Home() {
         <div className="title text-3xl md:text-4xl lg:text-5xl mt-10 font-pixelEmulator">
           About Us
         </div>
-        <div className="contentTextAbout w-3/4 h-120 md:h-60 flex flex-row justify-evenly m-auto mt-20 border-2 rounded-2xl  align-middle bg-gray-900   backdrop-filter backdrop-blur-sm bg-opacity-10  border-gray-100">
-          <div className="aboutContent w-1/2 h-fit text-left m-auto ml-10 mr-10 text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
-            doloribus beatae repellat veritatis eveniet error facere, sit ipsam
-            minima commodi ad reiciendis, hic aspernatur iste exercitationem
-            quia! Necessitatibus, aperiam.
-          </div>
-          <div className="logo m-auto ml-0 mr-0">
-            <img
-              src={logo}
-              alt=""
-              className="resized-image h-24 mr-10 lg:h-32 lg:mr-0"
-              
-            />
+        <div className="w-3/4 h-120 md:h-60 flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-500 via-black to-blue-500 p-0.5">
+          <div className="contentTextAbout flex flex-row justify-evenly rounded-2xl align-middle bg-black">
+              <div className="aboutContent w-1/2 h-fit text-left m-auto ml-10 mr-10 text-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
+                doloribus beatae repellat veritatis eveniet error facere, sit ipsam
+                minima commodi ad reiciendis, hic aspernatur iste exercitationem
+                quia! Necessitatibus, aperiam.
+              </div>
+              <div className="logo m-auto ml-0 mr-0">
+                <img
+                  src={logo}
+                  alt=""
+                  className="resized-image h-24 mr-10 lg:h-32 lg:mr-0"  
+                />
+              </div>
           </div>
         </div>
       </div>
