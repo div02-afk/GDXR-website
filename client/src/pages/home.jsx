@@ -29,23 +29,25 @@ export default function Home() {
         </div>
 
         <div className="parallax-layer ship mt-10 h-96"></div>
-        <div className="content flex lg:flex-row w-100  text-neutral-600 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 xl:mt-20 lg:mt-5">
+        <div className="content flex lg:flex-row w-100  text-neutral-400 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 xl:mt-20 lg:mt-5">
           {arr.map(({ title, img, link, about }) => (
             <div
               key={title}
-              className="contentText border-2 rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gray-900   backdrop-filter backdrop-blur-sm bg-opacity-10  border-gray-100"
+              className="contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gradient-to-br from-red-500 via-gray-900 to-blue-500 p-0.5"
               onClick={() => {
                 const url = link;
                 window.location.href = url;
               }}
             >
-              <div className="eventImage flex flex-row justify-center">
-                <img src={vrimg} alt="vrimage" width={100} />
-              </div>
-              <div className="projectName">{title}</div>
-              <div className="aboutEvent">
-                {" "}
-                Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
+              <div class=" h-full w-full bg-black rounded-2xl">
+                <div className="eventImage flex flex-row justify-center">
+                  <img src={vrimg} alt="vrimage" width={100} />
+                </div>
+                <div className="projectName">{title}</div>
+                <div className="aboutEvent">
+                  {" "}
+                  Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
+                </div>
               </div>
             </div>
           ))}
