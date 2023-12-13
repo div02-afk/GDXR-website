@@ -33,19 +33,21 @@ export default function Home() {
           {arr.map(({ title, img, link, about }) => (
             <div
               key={title}
-              className="contentText border-2 rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gray-900   backdrop-filter backdrop-blur-sm bg-opacity-10  border-gray-100"
+              className="contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gradient-to-br from-red-500 via-gray-900 to-blue-500   backdrop-filter backdrop-blur-sm bg-opacity-10 p-1"
               onClick={() => {
                 const url = link;
                 window.location.href = url;
               }}
             >
-              <div className="eventImage flex flex-row justify-center">
-                <img src={vrimg} alt="vrimage" width={100} />
-              </div>
-              <div className="projectName">{title}</div>
-              <div className="aboutEvent">
-                {" "}
-                Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
+              <div class=" h-full w-full bg-gray-900 rounded-2xl">
+                <div className="eventImage flex flex-row justify-center">
+                  <img src={vrimg} alt="vrimage" width={100} />
+                </div>
+                <div className="projectName">{title}</div>
+                <div className="aboutEvent">
+                  {" "}
+                  Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
+                </div>
               </div>
             </div>
           ))}
