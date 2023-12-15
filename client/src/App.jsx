@@ -2,6 +2,7 @@ import { useState,useEffect } from "react";
 import "./components/nav.css"
 // import "./App.css"
 import "./main.css"
+
 // import "./pages/home.css"
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
@@ -33,7 +34,7 @@ function App() {
   return (
     <>
     
-    
+    {/* <Model rotation = {`${rotation}`}/> */}
     <div className="parallax-layer meteor"></div>
       <BrowserRouter>
       

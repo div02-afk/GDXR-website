@@ -16,6 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@react-three/drei": "^9.88.17",
     "@react-three/fiber": "^8.15.11",
+    "@react-three/flex": "^1.0.1",
     "@react-three/postprocessing": "^2.15.11",
     "embla-carousel-autoplay": "^8.0.0-rc14",
     "embla-carousel-react": "^8.0.0-rc14",
