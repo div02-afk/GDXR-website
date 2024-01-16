@@ -26,7 +26,7 @@ export default function Navbar() {
       </motion.div>
       <nav>
         <div className="navLinks">
-          {arr.map(({link,img})=>(
+          {arr.map(({link,img})=>(  
             <motion.div
             whileHover={{
               scale: 1.2,
