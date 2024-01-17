@@ -17,7 +17,7 @@ html{
   
   @keyframes movement_car {
     0% {
-      background-position: 100vw 100%;
+      background-position: 2000px 100%;
     }
     100% {
       background-position: -300px 100%;

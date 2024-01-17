@@ -4,7 +4,7 @@
   /* max-width: 12%; */
   min-width: 30px;
   border: 1px solid black;
-  height: 200vh;
+  height: 100vh;
   position: fixed;
   /* overflow: hidden; */
   margin: auto;
@@ -45,8 +45,6 @@
   padding: 0.5rem 0.5rem;
   /* width: 2rem; */
   width: 70%;
-  aspect-ratio: 1/1;
-  font-size: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
