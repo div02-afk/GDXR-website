@@ -9,10 +9,12 @@
 }
 
 body {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   background-color: #000;
   scroll-behavior: smooth;
+  overflow-x: hidden
+  ;
   
   /* background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.24),       transparent), */
   /* radial-gradient(circle at 20% 80%, rgba(41, 55, 255, 0.058), transparent); */
@@ -33,7 +35,7 @@ canvas , .canvas-container{
 
 .title{
   font-family: "pixel-emulator";
-  font-size: 3rem;
+  font-size: 5vw;
   color: #fff;
   text-align: center;
   

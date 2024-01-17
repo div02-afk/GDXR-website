@@ -20,7 +20,7 @@ export default function Home() {
     <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24  z-40" id="home">
       <div className="home flex-col  h-3/7 lg:h-2/5 w-100 justify-center " >
         <div className="heading">
-          <div className="title hometitle text-white text-3xl md:text-4xl lg:text-5xl xl:mt-20 lg:mt-10 mt-20 lg:text-left font-pixelEmulator">
+          <div className="title hometitle text-white  lg:text-left font-pixelEmulator" >
             Game Development <br />
             and <br />
             eXtended Reality club

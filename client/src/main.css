@@ -25,10 +25,6 @@ html{
   }
   .ship {
     background: url(./assets/images/b7a.gif) 0 50% no-repeat;
-    /* z-index: 1; */
-    /* position: absolute; */
-    /* bottom: 200px; */
-    /* margin-top: 2rem; */
     padding-top:4rem;
     left: 0;
     width: 100%;
