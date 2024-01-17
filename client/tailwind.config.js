@@ -5,7 +5,12 @@ export default {
     fontFamily: {
       'pixelEmulator': ['pixelEmulator', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      screens: {
+        '4k': '3840px', // Custom 4k breakpoint
+        '2xl': '2040px', // Custom 2xl breakpoint
+      },
+    },
   },
   plugins: [],
 };

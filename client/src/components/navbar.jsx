@@ -22,12 +22,13 @@ export default function Navbar() {
         // whileTap={{ scale: 0.9 }}
       >
         
-        <img src={logo} width={44} height={46} alt="Logo" />
+        <img src={logo} className="w-20" alt="Logo" />
       </motion.div>
       <nav>
         <div className="navLinks">
-          {arr.map(({link,img})=>(  
+        {arr.map(({link,img,index})=>(  
             <motion.div
+            key={index}
             whileHover={{
               scale: 1.2,
               transition: { duration: 0.3 },
@@ -38,7 +39,7 @@ export default function Navbar() {
               window.location.href = link;
             }}
           >
-            <FontAwesomeIcon icon={img} className="link-icon" />
+            <FontAwesomeIcon icon={img} className="link-icon xl:text-3xl" />
           </motion.div>
           ))}
         </div>
