@@ -17,19 +17,19 @@ export default function Home() {
   const rotation=0;
 
   return (
-    <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24  z-40" id="home">
-      <div className="home flex-col  h-3/7 lg:h-2/5 w-100 justify-center " >
+    <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24   z-40" id="home">
+      <div className="home flex-col  h-3/7 lg:h-2/5 w-100 align-center items-center " >
         <div className="heading">
-          <div className="title hometitle text-white  lg:text-left font-pixelEmulator text-5xl mt-20" >
+          <div className="title hometitle text-white  lg:text-left font-pixelEmulator text-2xl lg:text-5xl mt-20" >
             Game Development <br />
             and <br />
             eXtended Reality club
           </div>
           {/* <Model rotation = {`${rotation}`}/> */}
         </div>
-
-        <div className="parallax-layer ship mt-10 h-96"></div>
-        <div className="content flex lg:flex-row w-100  text-neutral-400 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 xl:mt-20 lg:mt-5">
+        
+        <div className="parallax-layer ship mt-10 h-96 lg:w-11/12 sm:w-screen lg:-translate-x-10"></div>
+        <div className="content flex lg:flex-row w-10/12 m-auto text-neutral-400 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 xl:mt-20 lg:mt-5">
           {arr.map(({ title, img, link, about }) => (
             <div
               key={title}
@@ -39,7 +39,7 @@ export default function Home() {
                 window.location.href = url;
               }}
             >
-              <div class="bg-black h-full w-full rounded-2xl">
+              <div className="bg-black h-full w-full rounded-2xl">
                 <div className="eventImage flex flex-row justify-center">
                   <img src={vrimg} alt="vrimage" width={100} />
                 </div>
