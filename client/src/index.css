@@ -6,7 +6,13 @@ body{
   background-color: black;
   width: 100vw;
   padding: 0;
+  
 }
+::-webkit-scrollbar {
+  width: 0em;
+  height: 2em
+}
+
 #root{
   margin:0;
   padding:0;
