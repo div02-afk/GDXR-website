@@ -39,7 +39,7 @@ export default function Navbar() {
               window.location.href = link;
             }}
           >
-            <FontAwesomeIcon icon={img} className="link-icon xl:text-3xl" />
+            <FontAwesomeIcon icon={img} className="link-icon lg:text-xl 2xl:text-3xl" />
           </motion.div>
           ))}
         </div>

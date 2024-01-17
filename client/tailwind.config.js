@@ -9,6 +9,7 @@ export default {
       screens: {
         '4k': '3840px', // Custom 4k breakpoint
         '2xl': '2040px', // Custom 2xl breakpoint
+        'xs': '320px', // Custom xs breakpoint
       },
     },
   },
