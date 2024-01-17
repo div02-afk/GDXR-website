@@ -3,7 +3,7 @@ import "./components/nav.css"
 // import "./App.css"
 import "./main.css"
 
-// import "./pages/home.css"
+import "./pages/event.css"
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
 import Toggle from "./components/toggle";

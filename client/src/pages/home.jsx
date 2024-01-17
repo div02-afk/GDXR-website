@@ -1,7 +1,7 @@
 // import "./home.css";
 
 import Model from "./../components/3dmodel";
-
+import "./event.css";
 import Ourteam from "./../components/ourteam";
 import vrimg from "../assets/images/vrimage.png";
 import logo from "../assets/images/logo.svg";
@@ -33,13 +33,13 @@ export default function Home() {
           {arr.map(({ title, img, link, about }) => (
             <div
               key={title}
-              className="contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-2/3 bg-gradient-to-br from-red-500 via-black to-blue-500 p-0.5"
+              className=" glass contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-21/3 bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5"
               onClick={() => {
                 const url = link;
                 window.location.href = url;
               }}
             >
-              <div class=" h-full w-full bg-black rounded-2xl">
+              <div class="bg-black h-full w-full rounded-2xl">
                 <div className="eventImage flex flex-row justify-center">
                   <img src={vrimg} alt="vrimage" width={100} />
                 </div>
@@ -57,11 +57,11 @@ export default function Home() {
         className="about w-full h-1/5 lg:h-2/6 flex flex-col justify-center text-center"
         id="about"
       >
-        <div className="title text-3xl md:text-4xl lg:text-5xl mt-10 font-pixelEmulator">
+        <div className="title text-3xl md:text-4xl lg:text-5xl mt-10 font-pixelEmulator mb-10">
           About Us
         </div>
-        <div className="w-3/4 h-120 md:h-60 flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-500 via-black to-blue-500 p-0.5">
-          <div className="contentTextAbout flex flex-row justify-evenly rounded-2xl align-middle bg-black">
+        <div className="w-3/4 h-120 md:h-60 flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5">
+          <div className="glass contentTextAbout flex flex-row justify-evenly rounded-2xl align-middle bg-black">
               <div className="aboutContent w-1/2 h-fit text-left m-auto ml-10 mr-10 text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
                 doloribus beatae repellat veritatis eveniet error facere, sit ipsam
@@ -82,7 +82,7 @@ export default function Home() {
         className="team w-full h-2/5 lg:h-1/2 flex flex-col justify-center text-center mt-20"
         id="team"
       >
-        <div className="title text-3xl md:text-4xl lg:text-5xl font-pixelEmulator">
+        <div className="title text-3xl md:text-4xl lg:text-5xl font-pixelEmulator lg:mt-10">
           OUR Team{" "}
         </div>
         <div className="title">SEC's</div>
