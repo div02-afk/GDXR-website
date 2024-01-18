@@ -16,18 +16,18 @@ const Model = (rotation) => {
   // ref.rotation.y = rotation;
   // },[])
   return (
-    <div className="absolute -z-30  xl:ml-96" style={{width:"100vw",height:"100vh"}}>
+    <div className="absolute -z-30  xl:ml-96" style={{width:"100vw",height:"200vh"}}>
       
       <Canvas
         className="w-full h-full"
-        camera={{ fov: 20,zoom:3,position:[0,0,30] }}
+        camera={{ fov: 20,zoom:1,position:[0,0,30] }}
         
       >
       
         <ambientLight intensity={4} />
         <OrbitControls enableZoom={false}/>
         <directionalLight intensity={2.7} position={[0, 0, 10]}/>
-        <group position={[0,0.5,0]} rotation={[0.04,-0.8,-0.15]}>
+        <group position={[0,3,0]} rotation={[0.04,-0.8,-0.15]}>
         <Planet/>
         <Cloud/>
         </group>
