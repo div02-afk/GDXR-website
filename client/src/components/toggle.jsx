@@ -42,7 +42,7 @@ export default function Toggle() {
               {navlist.map(({ title, link }) => (
                 <div
                   key={title}
-                  className="font-pixelEmulator text-3xl text-left mt-10"
+                  className="font-pixelEmulator text-2xl lg:text-3xl text-left mt-5"
                   onClick={() => handleClick(link)}
                 >
                   {title}

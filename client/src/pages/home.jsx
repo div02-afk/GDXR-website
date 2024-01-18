@@ -21,14 +21,15 @@ export default function Home() {
           <Model rotation = {`${rotation}`}/>
       <div className="home flex-col  h-3/7 lg:h-2/5 w-100 align-center items-center " >
         <div className="heading">
-          <div className="title hometitle text-white  lg:text-left font-pixelEmulator text-2xl lg:text-5xl mt-20 2xl:text-7xl 2xl:ml-10" >
+          <div className="title select-none hometitle text-white  lg:text-left font-pixelEmulator text-2xl lg:text-5xl mt-20 2xl:text-7xl 2xl:ml-10 drop-shadow-3xl" >
             Game Development <br />
             and <br />
             eXtended Reality club
           </div>
         </div>
         
-        <div className="parallax-layer ship mt-10 h-96 lg:w-11/12 sm:w-screen lg:-translate-x-10"></div>
+        <div className="parallax-layer absolute  ship lg:mt-10 h-96 w-screen lg:-translate-x-5"></div>
+        <div className="parallax-layer nonShip mt-10 h-24 lg:w-11/12 sm:w-screen lg:-translate-x-10"></div>
         <div className="content flex lg:flex-row w-10/12 m-auto text-neutral-400 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 2xl:gap-6 xl:mt-20 lg:mt-5">
           {arr.map(({ title, img, link, about }) => (
             <div
@@ -60,21 +61,19 @@ export default function Home() {
         <div className="title text-3xl md:text-4xl lg:text-5xl mt-10 font-pixelEmulator mb-10">
           About Us
         </div>
-        <div className="w-3/4 h-120 md:h-60 flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5">
+        <div className="w-3/4  md:h-60 flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5">
           <div className="glass contentTextAbout flex flex-row justify-evenly rounded-2xl align-middle bg-black">
-              <div className="aboutContent w-1/2 h-fit text-left m-auto ml-10 mr-10 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est
-                doloribus beatae repellat veritatis eveniet error facere, sit ipsam
-                minima commodi ad reiciendis, hic aspernatur iste exercitationem
-                quia! Necessitatibus, aperiam.
+              <div className="aboutContent w-full h-fit text-justify  text-md p-5">
+              A place to open your minds and explore the vast and amazing world of Game Development.
+               While playing games do you come up with a game idea and are intrested to develop it, well then this club is your destination.
               </div>
-              <div className="logo m-auto ml-0 mr-0">
+              {/* <div className="logo m-auto ml-0 mr-0">
                 <img
                   src={logo}
                   alt=""
                   className="resized-image h-24 mr-10 lg:h-32 lg:mr-0"  
                 />
-              </div>
+              </div> */}
           </div>
         </div>
       </div>
