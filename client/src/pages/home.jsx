@@ -61,9 +61,9 @@ export default function Home() {
         <div className="title text-3xl md:text-4xl lg:text-5xl mt-10 font-pixelEmulator mb-10">
           About Us
         </div>
-        <div className="w-3/4  md:h-60 flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5">
+        <div className="w-3/4  h-fit flex flex-row justify-evenly m-auto mt-20 rounded-2xl  align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5">
           <div className="glass contentTextAbout flex flex-row justify-evenly rounded-2xl align-middle bg-black">
-              <div className="aboutContent w-full h-fit text-justify  text-md p-5">
+              <div className="aboutContent w-full h-fit text-justify  text-md p-10">
               A place to open your minds and explore the vast and amazing world of Game Development.
                While playing games do you come up with a game idea and are intrested to develop it, well then this club is your destination.
               </div>
