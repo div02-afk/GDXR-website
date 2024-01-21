@@ -12,8 +12,8 @@ body {
   width: 100vh;
   height: 100vh;
   background-color: #000;
-  scroll-behavior:auto;
-  overflow-x: hidden
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
   ;
   
   /* background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.24),       transparent), */

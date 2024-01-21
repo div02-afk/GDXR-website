@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24   z-40" id="home">
       <Suspense>
-          <Model rotation = {`${rotation}`}/>
+          {/* <Model rotation = {`${rotation}`}/> */}
           </Suspense>
       <div className="home flex-col  h-3/7 lg:h-2/5 w-100 align-center items-center " >
         <div className="heading">
