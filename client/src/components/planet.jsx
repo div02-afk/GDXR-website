@@ -16,7 +16,7 @@ import Controls from "./controls";
     console.log(actions);
     actions.revolve.setDuration(10);
     actions.revolve.repetitions = Infinity;
-    actions.revolve.play();
+    // actions.revolve.play();
   })
 
   return (

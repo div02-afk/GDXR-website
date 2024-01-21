@@ -11,7 +11,7 @@ export default function Home() {
   const arr = [
     { title: "AIT VR Tour", img: vrimg, link: "", about: "" },
     { title: "Other Projects", img: vrimg, link: "", about: "" },
-    { title: "Game-a-thon", img: vrimg, link: "/gameathon", about: "" },
+    { title: "Game-A-thon", img: vrimg, link: "/gameathon", about: "" },
     { title: "Genesis", img: vrimg, link: "/genesis", about: "" },
   ];
   
@@ -33,25 +33,25 @@ export default function Home() {
         
         <div className="parallax-layer absolute  ship lg:mt-10 h-96 w-screen lg:-translate-x-5"></div>
         <div className="parallax-layer nonShip mt-10 h-24 lg:w-11/12 sm:w-screen lg:-translate-x-10"></div>
-        <div className="content flex lg:flex-row w-10/12 m-auto text-neutral-400 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 2xl:gap-6 xl:mt-20 lg:mt-5">
+        <div className="content flex md:ml-24 md:flex-row w-10/12 m-auto text-neutral-400 lg:justify-evenly items-center justify-center align-middle text-center flex-col gap-3 lg:gap-5 2xl:gap-6 xl:mt-20 lg:mt-5">
           {arr.map(({ title, img, link, about }) => (
             <div
               key={title}
-              className=" glass contentText rounded-2xl flex flex-col justify-center h-50 xl:h-60 sm:w-1/2 w-21/3 bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5"
+              className=" glass contentText rounded-2xl flex flex-col justify-center  sm:w-3/4 w-2/3 bg-gradient-to-br from-red-700 via-violet-900 to-blue-700 p-0.5 "
               onClick={() => {
                 const url = link;
                 window.location.href = url;
               }}
             >
-              <div className="bg-black h-full w-full rounded-2xl">
+              <div className="bg-black h-full w-full rounded-2xl p-4">
                 <div className="eventImage flex flex-row justify-center">
                   <img src={vrimg} alt="vrimage" width={100} />
                 </div>
                 <div className="projectName">{title}</div>
-                <div className="aboutEvent 2xl:text-3xl">
+                {/* <div className="aboutEvent 2xl:text-3xl">
                   {" "}
                   Lorem, ipsum dolor sit amet consectetur lorem234 adipisicing{" "}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
