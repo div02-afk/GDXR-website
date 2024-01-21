@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import { act, useFrame } from "@react-three/fiber";
 import { Flex } from "@react-three/flex";
 import {Bloom, EffectComposer, Noise, Vignette} from "@react-three/postprocessing";
-
+import Controls from "./controls";
   function Planet() {
   const ref = useRef();
   const modelPath = "/bodies.glb";
@@ -21,6 +21,7 @@ import {Bloom, EffectComposer, Noise, Vignette} from "@react-three/postprocessin
 
   return (
     <>
+    <Controls/>
       <Flex justifyContent="right" >
         <primitive
           object={nodes.Scene}

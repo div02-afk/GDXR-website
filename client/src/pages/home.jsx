@@ -6,6 +6,7 @@ import Ourteam from "./../components/ourteam";
 import vrimg from "../assets/images/vrimage.png";
 import logo from "../assets/images/logo.svg";
 // import TeamMemberCard from "./../components/ourteam";
+import { Suspense } from "react";
 export default function Home() {
   const arr = [
     { title: "AIT VR Tour", img: vrimg, link: "", about: "" },
@@ -18,7 +19,9 @@ export default function Home() {
 
   return (
     <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24   z-40" id="home">
+      <Suspense>
           <Model rotation = {`${rotation}`}/>
+          </Suspense>
       <div className="home flex-col  h-3/7 lg:h-2/5 w-100 align-center items-center " >
         <div className="heading">
           <div className="title select-none hometitle text-white  lg:text-left font-pixelEmulator text-2xl lg:text-5xl mt-20 2xl:text-7xl 2xl:ml-10 drop-shadow-3xl" >
