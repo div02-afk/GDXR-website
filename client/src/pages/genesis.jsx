@@ -8,7 +8,7 @@ export default function Genesis() {
         Genesis
       </div>
       <div className="event-content flex flex-col lg:flex-row ">
-        <div className="glass eventContentText h-60 lg:w-2/5 w-3/4 flex flex-col justify-center m-auto mt-20 rounded-2xl align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700  p-0.5">
+        <div className="glass eventContentText lg:h-60 lg:w-2/5 w-3/4 flex flex-col justify-center m-auto mt-20 rounded-2xl align-middle bg-gradient-to-br from-red-700 via-violet-900 to-blue-700  p-0.5">
           <div className="h-full w-full bg-black rounded-2xl flex flex-col justify-center p-4">
             <div className="projectName align-top ">ABOUT</div>
             <div className="aboutEvent text-center ">
