@@ -18,6 +18,8 @@ export default function Home() {
   const rotation=0;
 
   return (
+    <>
+    
     <div className="landing w-full h-max text-white text-center xl:ml-32 xl:mr-4 lg:mr-5 lg:ml-24   z-40" id="home">
       <Suspense>
           {/* <Model rotation = {`${rotation}`}/> */}
@@ -95,5 +97,6 @@ export default function Home() {
       </div>
       
     </div>
+    </>
   );
 }
